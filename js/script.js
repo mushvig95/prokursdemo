@@ -180,7 +180,7 @@ sr.reveal('.highlights__items-item',{
   useDelay: 'always',
   //reset:true
 });
-sr.reveal('.highlights__form',{
+sr.reveal('.highlights__form-reveal',{
   duration: 2000,
   origin: 'right',
   distance:'900px',
@@ -205,7 +205,7 @@ sr.reveal('.map__text',{
   duration: 2000,
   origin: 'left',
   distance:'900px',
-  reset:true
+  //reset:true
 });
 sr.reveal('.map__btns',{
   duration: 2000,
