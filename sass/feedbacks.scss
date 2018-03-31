@@ -1,0 +1,93 @@
+
+
+.feedbacks {
+    background-image: url(../img/middle_bg.jpg);
+    background-size: cover;
+    background-position: top;
+
+    &__heading {
+        font-size: 5rem;
+        font-weight: bold;
+        color: white;
+        text-align: center;
+        margin-top: 6rem;
+        @media only screen and (max-width:700px) {
+           font-size: 3rem;
+        }
+
+    }
+
+    &__slider {
+        margin-top: 40px;
+        //border: 1px solid white;
+        position: relative;
+
+        &-item {
+            outline: none;
+        }
+
+        &-item-imgbox {
+            margin: 0 auto;
+            overflow: hidden;
+            
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 8px solid #6a6a6b;
+
+            &-img {
+                object-fit: cover;
+                width:100%;
+                height: 100%;
+                
+            }
+        }
+
+        &-item-textbox {
+            text-align: center;
+
+            &-name {
+                margin-top: 10px;
+                color: white;
+                font-size: 22px;
+                font-style: italic;
+                font-weight: lighter;
+                font-family: 'Times New Roman';
+                //border: 1px solid gold;
+                padding-bottom: 20px;
+                position: relative;
+
+                &:after {
+                    content: "";
+                    display: block;
+                    width: 100px;
+                    height: 1px;
+                    position: absolute;
+                    bottom: 0;
+                    left: 50%;
+                   
+                    transform: translate(-50%,-50%);
+                    background-color: #cea380;
+           
+                }
+            }
+
+            &-feedback {
+                color: white;
+                font-size: 15px;
+                font-weight: lighter;
+                width: 60%;
+                margin: 0 auto;
+                margin-bottom: 20px;
+                margin-top: 20px;
+                @media only screen and (max-width:700px) {
+                    width: 95%;
+                 }
+            }
+        }
+
+        
+
+    }
+
+}

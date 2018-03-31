@@ -1,0 +1,11 @@
+.header {
+  border: 1px solid red; }
+  .header__box {
+    border: 1px solid green;
+    display: flex;
+    align-content: space-around;
+    flex-direction: row; }
+  .header__box-name {
+    border: 1px solid red; }
+  .header__box-number1 {
+    display: none; }

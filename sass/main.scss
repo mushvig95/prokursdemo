@@ -1,0 +1,38 @@
+@import 'header';
+@import 'mixins';
+@import 'features';
+@import 'highlights';
+@import 'feedbacks';
+@import 'slickslider';
+@import 'slogan';
+@import 'map';
+@import 'footer';
+@import 'popup';
+@import 'animation';
+
+
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    font-weight: 400;
+
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+.container {
+    overflow: hidden;
+}
